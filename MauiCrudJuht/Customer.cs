@@ -1,6 +1,5 @@
 ﻿using SQLite;
 
-
 namespace MauiCrudJuht
 {
 
