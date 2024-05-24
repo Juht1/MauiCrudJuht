@@ -1,8 +1,5 @@
 ﻿using SQLite;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
+
 
 namespace MauiCrudJuht
 {
@@ -12,11 +9,19 @@ namespace MauiCrudJuht
     {
         [PrimaryKey]
         [AutoIncrement]
+        [Column("id")]
+
         public int Id { get; set; }
+
+        [Column("customer_name")]
 
         public string CustomerName { get; set; }
 
+        [Column("mobile")]
+
         public string Mobile { get; set; }
+        
+        [Column("email")]
 
         public string Email { get; set; }
     }
