@@ -9,7 +9,7 @@ namespace MauiCrudJuht
 
         public LocalDbService()
         {
-            _connection = new SQLiteAsyncConnection(Path.Combine(FileSystem.AppDataDirectory, DB_NAME));
+            _connection = new SQLiteAsyncConnection(Path.Combine(DB_NAME)) ;
             _connection.CreateTableAsync<Customer>();
         }
 

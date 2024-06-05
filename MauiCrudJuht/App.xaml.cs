@@ -2,11 +2,12 @@
 {
     public partial class App : Application
     {
-        public App(MainPage mainPage)
+        public App()
         {
             InitializeComponent();
 
-            MainPage = mainPage;
+            // Set MainPage to your MainPage instance
+            MainPage = new MainPage(new LocalDbService());
         }
     }
 }
