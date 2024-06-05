@@ -7,8 +7,7 @@
         <VerticalStackLayout Padding="10" FlexLayout.Basis="400" BackgroundColor="Beige">
             <Entry x:Name="nameEntryField" Placeholder="Name" />
             <Entry x:Name="emailEntryField" Placeholder="Email" />
-            <Entry x:Name="mobileEntryField" Placeholder="Email" />
-            <Entry x:Name="saveEntryField" Placeholder="Mobile" />
+            <Entry x:Name="mobileEntryField" Placeholder="Mobile" />
             <Button x:Name="saveButton" Text="Save" Clicked="saveButton_Clicked" />
         </VerticalStackLayout>
         <ListView x:Name="ListView" FlexLayout.Grow="1" HasUnevenRows="True" ItemTapped="ListView_ItemTapped">
