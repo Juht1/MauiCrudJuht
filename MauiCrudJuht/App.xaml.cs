@@ -7,7 +7,7 @@
             InitializeComponent();
 
             // Set MainPage to your MainPage instance
-            MainPage = new MainPage(new LocalDbService());
+            MainPage = new NavigationPage(new MainPage(new LocalDbService()));
         }
     }
 }

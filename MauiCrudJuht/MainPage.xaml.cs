@@ -10,7 +10,7 @@
             _dbService = dbService;
         }
 
-        public async void NavigateButton_Clicked(object sender, EventArgs e)
+        async void NavigateButton_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new FrontPage(_dbService));
         }

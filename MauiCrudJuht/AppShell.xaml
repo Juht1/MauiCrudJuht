@@ -8,8 +8,8 @@
     Title="MauiCrudJuht">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Title="FrontPage"
+        ContentTemplate="{DataTemplate local:FrontPage}"
+        Route="FrontPage" />
 
 </Shell>

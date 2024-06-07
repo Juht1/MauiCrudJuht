@@ -5,7 +5,7 @@
 
 
     <FlexLayout Direction="Column">
-        <VerticalStackLayout Padding="10" FlexLayout.Basis="400" BackgroundColor="Black">
+        <VerticalStackLayout Padding="10" FlexLayout.Basis="200" BackgroundColor="WhiteSmoke">
             <Entry x:Name="nameEntryField" Placeholder="Name"/>
             <Entry x:Name="emailEntryField" Placeholder="Email" />
             <Entry x:Name="mobileEntryField" Placeholder="Mobile" />
